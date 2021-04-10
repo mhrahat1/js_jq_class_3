@@ -1,0 +1,87 @@
+ body{
+ 	padding: 0;
+ 	margin: 0;
+ }
+ #draggable { 
+ 	width: 150px;
+ 	height: 150px;
+ 	padding: 0.5em;
+ 	background:linear-gradient(to left,red,yellow);
+}
+/*resizeable start*/
+#resizable { 
+	width: 150px;
+	height: 150px;
+	padding: 0.5em;
+}
+#resizable h3 {
+	background: yellow;
+	text-align:center;  
+	color:red;
+	margin: 0; 
+}
+.ui-resizable-helper {
+    border: 2px solid teal;
+}
+/*resizeable end*/
+/*selectable start*/
+#feedback { 
+	font-size: 1.4em; 
+}
+#selectable .ui-selecting { 
+	background: #FECA40; 
+}
+#selectable .ui-selected { 
+	background: #F39814; 
+	color: white; 
+}
+#selectable { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	width: 60%; 
+}
+#selectable li { 
+	margin: 3px; 
+	padding: 0.4em; 
+	font-size: 1.4em; 
+	height: 18px; 
+}
+/*selectable end*/
+/*accordion start*/
+/*accordion end*/
+/*checkbox start*/
+.c_checkbox{
+	background: linear-gradient(blue,teal);
+}
+.h2_1{
+	color:yellow;
+}
+/*checkbox end*/
+/*datepicker*/
+#datepicker{
+	background: linear-gradient(to left,blue,teal);
+	color: #ffffff;
+}
+/*datepicker*/
+/*progressbar */
+.progressbar{
+	background: transparent;
+}
+/*progressbar */
+/*toolpit start*/
+.c_label {
+    display: inline-block;
+    width: 5em;
+  }
+/*toolpit end*/
+/*color animation*/
+/*color animation*/
+
+/*button start*/
+.c_button{}
+.c_button button{}
+.c_button a{
+	text-decoration: none;
+}
+/*button end*/
